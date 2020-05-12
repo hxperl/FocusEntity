@@ -38,10 +38,10 @@ public class FESquare: FocusEntity {
   /// Duration of the open/close animation
   static let animationDuration = 0.7
 
-  static var primaryColor = #colorLiteral(red: 1, green: 0.8, blue: 0, alpha: 1)
+  static var primaryColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
 
   /// Color of the focus square fill.
-  static var fillColor = #colorLiteral(red: 1, green: 0.9254901961, blue: 0.4117647059, alpha: 1)
+  static var fillColor = #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)
 
   /// Indicates whether the segments of the focus square are disconnected.
   private var isOpen = true
