@@ -136,7 +136,7 @@ open class FocusEntity: Entity {
   private var isChangingAlignment = false
 
   /// The focus square's current alignment.
-  var currentAlignment: ARPlaneAnchor.Alignment?
+  public var currentAlignment: ARPlaneAnchor.Alignment?
 
   /// The current plane anchor if the focus square is on a plane.
   private(set) var currentPlaneAnchor: ARPlaneAnchor?
