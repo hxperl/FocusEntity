@@ -92,6 +92,7 @@ public class FESquare: FocusEntity {
       segment.open()
     }
     self.positioningEntity.addChild(fillPlane)
+	self.synchronization = nil
     self.positioningEntity.scale = SIMD3<Float>(repeating: FESquare.size * FESquare.scaleForClosedSquare)
 
     // Always render focus square on top of other content.

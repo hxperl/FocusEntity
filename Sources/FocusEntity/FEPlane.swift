@@ -39,6 +39,7 @@ public class FEPlane: FocusEntity {
     self.size = 0.17
     super.init()
     self.positioningEntity.addChild(fillPlane)
+	self.generateCollisionShapes(recursive: true)
   }
 
   // MARK: Animations
